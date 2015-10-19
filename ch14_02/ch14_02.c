@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int get_sum(int array[], int size);
 
@@ -16,9 +16,9 @@ int main()
     for (i = 0; i < 3; i++) {
         arrSum = get_sum(arr[i], 6);
         sum += arrSum;
-        printf("%d¹øÂ° ÁÙ: %d\n", i + 1, arrSum);
+        printf("%dë²ˆì§¸ ì¤„: %d\n", i + 1, arrSum);
     }
-    printf("ÀüÃ¼ ÇÕ°è: %d\n", sum);
+    printf("ì „ì²´ í•©ê³„: %d\n", sum);
 
     return 0;
 }
